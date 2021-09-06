@@ -1,0 +1,249 @@
+# Site
+repository: maycowmeira/maycowmeira.github.io
+favicon: images/mustache-logo.png
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Maycow Thomaz Meira
+title: Software Engineer
+email: maycowmeira@gmail.com
+# website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: maycowmeira
+github_username:  maycowmeira
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: maycowmeira
+linkedin_username: maycowmeira
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Toogle light/dark theme
+  icon: fas fa-adjust
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+
+  Hello there!
+
+  If you are not fan a light themes in websites, click at the last icon in the links section up there! You'll thank me later ;D
+
+  My name is Maycow and I am a brazilian software engineering currently based on Barcelona.
+
+  I spent most of my years working with <mark>Ruby on Rails</mark> applications, usually in the backend building <mark>APIs</mark>, but I also had some frontend adventures using <mark>AngulasJS</mark> and <mark>VueJS</mark>.
+
+  I also worked for some months in a service project using <mark>Phoenix</mark> and <mark>Elixir</mark>.
+
+  In college most of my projects and internships were using <mark>Java</mark> or <mark>C</mark>.
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: RakutenTV
+        link: rakuten.tv
+        # link_text: Rakuten TV
+        sub_title: Backend Engineer
+        caption: January 2021 - Present
+        quote: >
+          Barcelona, Spain
+        description: | # this will include new lines to allow paragraphs
+          - Development of features in backend <mark>API</mark> using <mark>Ruby on Rails</mark>, <mark>Elasticsearch</mark> and <mark>Varnish</mark>.
+          - Writing test using <mark>RSpec</mark> following <mark>TDD</mark> approach.
+          - Development of client to consume external <mark>API</mark> in the backend.
+
+      - layout: left
+        title: James Delivery
+        link: www.jamesdelivery.com.br
+        # link_text: boringcompany.com
+        sub_title: Senior Software Engineer
+        caption: March 2020 - December 2020
+        quote: >
+          Curitiba, Brazil
+        description: | # this will include new lines to allow paragraphs
+            - <mark>Ruby on Rails</mark> backend API
+            - Deploying application to <mark>AWS EC2</mark> servers.
+            - Increasing test coverage for monolithic application.
+            - Improving <mark>CI/CD</mark> on Github actions.
+            - Refactoring code to improve performance.
+            - Scripting <mark>Docker</mark> and <mark>Docker composer</mark> files.
+            - Planning and executing database migrations.
+            - Standby shift for possible system crashes.
+
+      - layout: left
+        title: EADBOX / HeroSpark
+        link: herospark.com
+        # link_text: boringcompany.com
+        sub_title: Software Engineer
+        caption: October 2017 - February 2020
+        quote: >
+          Curitiba, Brazil
+        description: | # this will include new lines to allow paragraphs
+          This company started as Eadbox and after a merge and acquisition they rebranded to Herospark.
+
+          Some of my accomplishments and daily basis work:
+
+          - Main developer of a system from scratch in <mark>Ruby on Rails</mark> 6 using <mark>Sidekiq</mark>, <mark>Redis</mark>, <mark>Postgres</mark> and <mark>Kafka</mark>.
+          - Used to work using agile methods as <mark>Scrum</mark> and <mark>Kanban</mark>, and using development techniques as <mark>pair programming</mark> and
+          <mark>TDD</mark>, also used to the <mark>CI/CD</mark> methodology.
+          - Currently working as a backend developer, but I consider myself having <mark>full stack</mark> abilities, since I developed several features from back to front.
+          - Analyzed and implemented <mark>Kafka</mark> messenger as a solution to be used as communication tool between systems.
+          - Worked in micro services projects as well using <mark>Elixir</mark>, <mark>GRPC</mark> and <mark>GraphQL</mark>.
+          - Participated at the main software service migration from a stack of <mark>Docker</mark>, <mark>Rancher</mark>, <mark>Github</mark> and <mark>CircleCI</mark> to <mark>Kubernetes</mark>
+          using <mark>Google Cloud</mark> services and <mark>Gitlab</mark>.
+          - Experience with payment processing.
+          - I also enjoy helping other coworkers when they are in need, or when they need someone to brainstorm with.
+
+      - layout: left
+        title: EADBOX / Herospark
+        link: herospark.com
+        # link_text: boringcompany.com
+        sub_title: Software Engineer Intern
+        caption: September 2016 - October 2017
+        quote: >
+          Curitiba, Brazil
+        description: | # this will include new lines to allow paragraphs
+          I started at this e-learning startup as an intern and got hired to be a software engineer.
+
+          As an intern I worked with customer support for the product for 3 months and the I started working with the development team solving bugs and developing features.
+
+      - layout: left
+        title: Dynamic Leap Technology Inc.
+        link: www.linkedin.com/company/dynamic-leap-technology-inc-/about
+        link_text: Dynamic Leap Linkedin Page
+        sub_title: Software Engineering Intern
+        caption: May 2016 - August 2016
+        quote: >
+          Vancouver, Canada
+        description: | # this will include new lines to allow paragraphs
+          - Software development using <mark>Spring</mark> framework in <mark>MVC</mark> architecture with <mark>JSO</mark> as view template, using Hibernate framework with <mark>MySQL</mark> database, <mark>jQuery</mark> and <mark>Bootstrap</mark> on frontend.
+          - Mobile <mark>QA</mark> for Android and iOS.
+          - Viability research on the use of mobile testing applications on cloud (<mark>Firebase test lab</mark>).
+
+      - layout: left
+        title: Town Council of Curitiba
+        link: www.curitiba.pr.leg.br
+        # link_text: boringcompany.com
+        sub_title: Software Engineering Intern
+        caption: May 2014 - December 2014
+        quote: >
+          Curitiba, Brazil
+        description: | # this will include new lines to allow paragraphs
+          Internship programming with <mark>Java EE</mark> and <mark>PHP</mark>.
+
+      - layout: left
+        title: FUNTEF-PR
+        link: www.funtefpr.org.br
+        # link_text: boringcompany.com
+        sub_title: Software Engineer
+        caption: April 2013 - February 2014
+        quote: >
+          Curitiba, Brazil
+        description: | # this will include new lines to allow paragraphs
+          Software development using <mark>MVC</mark> Architecture in <mark>Java WEB</mark> using <mark>Struts Framework</mark>.
+
+      - layout: left
+        title: Celepar
+        link: www.celepar.pr.gov.br
+        # link_text: boringcompany.com
+        sub_title: Software Engineering Intern
+        caption: October 2012 - March 2013
+        quote: >
+          Curitiba, Brazil
+        description: | # this will include new lines to allow paragraphs
+          Internship developing features and fixing bug in existing software from the company using <mark>Java Struts</mark>.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Universidade Tecnológica Federal do Paraná - UTFPR
+        caption: 2011 - 2018
+        sub_title: BSc Information Systems
+        quote: >
+          Curitiba, Brazil
+        description: | # this will include new lines to allow paragraphs
+          While I was studying at UTFPR, I could learn how to work with people and with projects.
+
+          I also was part of a program where we teached programming to kids using <mark>Arduino</mark> and <mark>low code</mark> tools.
+
+      - layout: left
+        title: University of British Columbia - UBC
+        caption: 2015 - 2016
+        sub_title: BSc Computer Science - Exchange student
+        quote: >
+          Vancouver, Canada
+        description: | # this will include new lines to allow paragraphs
+          During the degree I did several internships and I participated of a governament project that allowed me to study an year abroad.
+
+          It was a great experience to live, study and work abroad with so many different people and situations. It was a enriching year for me.
+
+          I studied for two terms at the University and in the last four months of my exchange program I worked at Dynamic Leap as described at the experience section.
+
+      - layout: left
+        title: Pontifícia Universidade Católica do Paraná
+        caption: 2008 - 2010
+        sub_title: Chemistry's Licenciature
+        quote: >
+          Curitiba, Brazil
+        description: | # this will include new lines to allow paragraphs
+          My first degree allowed me to work teaching chemistry.
+          Which taught me how to transmit knowledge and how to proper organize content to be understandable by others.
+          But I was carried to the tech field that I was in love since my early days.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering some of my other interests and hobbies are:
+      - Movies and series
+      - Gaming
+      - Guitar playing
+      - Cooking with/for my wife
+      - Claw fighting with my cat
+
+      Look at this silly feline:
+
+      ![Trees](images/maze.jpeg "Mazr")
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+assets:
+  caching:
+    enabled: false
