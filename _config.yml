@@ -50,8 +50,6 @@ about_content: | # this will include new lines to allow paragraphs
 
   Hello there!
 
-  If you are not fan a light themes in websites, click at the last icon in the links section up there! You'll thank me later ;D
-
   My name is Maycow and I am a brazilian software engineering currently based on Barcelona.
 
   I spent most of my years working with <mark>Ruby on Rails</mark> applications, usually in the backend building <mark>APIs</mark>, but I also had some frontend adventures using <mark>AngulasJS</mark> and <mark>VueJS</mark>.
@@ -59,6 +57,8 @@ about_content: | # this will include new lines to allow paragraphs
   I also worked for some months in a service project using <mark>Phoenix</mark> and <mark>Elixir</mark>.
 
   In college most of my projects and internships were using <mark>Java</mark> or <mark>C</mark>.
+
+  PS: I loaded the site based on your preferences of light/dark theme, but if want to switch it click at the last icon in the links section up there! ;D
 
 content:
   - title: Experience # Title for the section
