@@ -1,14 +1,21 @@
-document.addEventListener("DOMContentLoaded", function (event) {
-  var toogle_button = document.querySelector("body > div.container.header-contianer > div > div.col-xs-12.col-sm-6.col-md-6.col-lg-4.header-right > ul > li:nth-child(5) > a");
+document.addEventListener('DOMContentLoaded', function (event) {
+  const toogle_button = document.querySelector('div.header-right .icons li:last-child a.button');
 
-  toogle_button.removeAttribute("href");
+  toogle_button.removeAttribute('href');
 
   toogle_button.onclick = function () {
-    if (document.body.classList.value == "dark") {
-      document.body.classList.remove("dark");
+    if (document.body.classList.value == 'dark') {
+      document.body.classList.remove('dark');
+    } else {
+      document.body.classList.add('dark');
     }
-    else{
-      document.body.classList.add("dark");
-    }
+  }
+
+  const preferDarkTheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (preferDarkTheme) {
+    document.body.classList.add('dark');
+  } else {
+    document.body.classList.remove('dark');
   }
 });
