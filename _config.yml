@@ -215,6 +215,22 @@ content:
           My first degree allowed me to work teaching chemistry.
           Which taught me how to transmit knowledge and how to proper organize content to be understandable by others.
           But I was carried to the tech field that I was in love since my early days.
+  - title: Awards
+    layout: list
+    content:
+      - layout: left
+        title: Second place at TM Forum's Open Hack Vancouver
+        link: https://inform.tmforum.org/internet-of-everything/2016/07/open-hack-vancouver-winner/#:~:text=Connecting%20farmers%20and%20local%20families
+        link_text: TM Forum's article
+        sub_title: TM Forum
+        caption: July 2016
+        quote: >
+          Vancouver, Canada
+        description: | # this will include new lines to allow paragraphs
+          Programming marathon where my team developed an solution for direct contact between the final consumer and the local food suppliers, as farmers and agriculturists. Cutting the middleman, and encouraging the local consumption and production, in adittion to cheapen custs for both sides.
+          The project envolved the creation of an online store to sell these products, and an iOS app that received information from several sensors from a mangOH board (temperature, humidity, GPS, etc.) through an Restful server, that would indicates the current condition and location of the product box to the final client, thus the client would know if the product had left in its storage ideal conditions during transportation, and its location.
+
+          ![OpenHack Prize Photo](images/open-hack-2-prize.jpeg)
 
   - title: A Little More About Me
     layout: text
@@ -228,7 +244,7 @@ content:
 
       Look at this silly feline:
 
-      ![Trees](images/maze.jpeg "Mazr")
+      ![Maze](images/maze.jpeg "Mazr")
 
 # Footer
 footer_show_references: false
