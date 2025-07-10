@@ -31,7 +31,7 @@ linkedin_username: maycowmeira
 
 # Additional icon links
 additional_links:
-- title: Toogle light/dark theme
+ - title: Toggle light/dark theme
   icon: fas fa-adjust
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   My name is Maycow and I am a brazilian software engineering currently based on Barcelona.
 
-  I spent most of my years working with <mark>Ruby on Rails</mark> applications, usually in the backend building <mark>APIs</mark>, but I also had some frontend adventures using <mark>AngulasJS</mark> and <mark>VueJS</mark>.
+  I spent most of my years working with <mark>Ruby on Rails</mark> applications, usually in the backend building <mark>APIs</mark>, but I also had some frontend adventures using <mark>AngularJS</mark> and <mark>VueJS</mark>.
 
   I also worked for some months in a service project using <mark>Phoenix</mark> and <mark>Elixir</mark>.
 
@@ -227,7 +227,7 @@ content:
         quote: >
           Vancouver, Canada
         description: | # this will include new lines to allow paragraphs
-          Programming marathon where my team developed an solution for direct contact between the final consumer and the local food suppliers, as farmers and agriculturists. Cutting the middleman, and encouraging the local consumption and production, in adittion to cheapen custs for both sides.
+          Programming marathon where my team developed a solution for direct contact between the final consumer and the local food suppliers, as farmers and agriculturists. Cutting the middleman and encouraging local consumption and production, in addition to reducing costs for both sides.
           The project envolved the creation of an online store to sell these products, and an iOS app that received information from several sensors from a mangOH board (temperature, humidity, GPS, etc.) through an Restful server, that would indicates the current condition and location of the product box to the final client, thus the client would know if the product had left in its storage ideal conditions during transportation, and its location.
 
           ![OpenHack Prize Photo](images/open-hack-2-prize.jpeg)
@@ -244,7 +244,7 @@ content:
 
       Look at this silly feline:
 
-      ![Maze](images/maze.jpeg "Mazr")
+      ![Maze](images/maze.jpeg "Maze")
 
 # Footer
 footer_show_references: false
